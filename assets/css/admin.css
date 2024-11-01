@@ -1,0 +1,175 @@
+.connectedSortable li {float: left; padding: 5px;}
+.connectedSortable.ui-sortable {
+     height: inherit !important;
+    overflow: auto !important;
+    padding: 25px 10px;
+	  background: #fff;
+}
+.admin_social_wrap {
+	background: #fff;
+	padding: 15px;
+}
+.admin_social_wrap h2.heading {
+	font-size: 24px;
+	margin: 0;
+	/* border-bottom: 1px solid #ddd; */
+	padding: 15px;
+	margin-bottom: 15px;
+	/* padding-top: 0; */
+	background: #f5f5f5;
+}
+.admin_social_wrap .nav-tab{
+	float:left;
+	width:25%;
+	text-align:center;
+	box-sizing:border-box;
+	margin:0;
+	border:none;
+	background:none;
+	padding:15px 10px;
+	border-bottom: 1px solid #ddd;
+	outline:none !important;
+}
+.admin_social_wrap .nav-tab:focus{
+	box-shadow:none !important;
+}
+.admin_social_wrap.wrap .nav-tab-active:focus{
+	outline:none !important;
+	box-shadow:none !important;
+}
+.admin_social_wrap .nav-tab.nav-tab-active{
+	border:none;
+	background:none;
+	border-top:2px solid #2c96d6;
+	border-left:1px solid #ddd;
+	border-right:1px solid #ddd;
+	outline:none !important;
+}
+.admin_social_wrap.wrap h2.nav-tab-wrapper {
+	border-bottom: none;
+	margin-bottom: 0px;
+	background: #fff;
+	z-index: 1;
+	position: relative;
+}
+.social_share_count_form_dv {
+	border: 1px solid #ddd;
+	padding: 0 15px;
+	/* border-top: none; */
+	margin-top: -1px;
+}
+.social_share_count_form_dv .form-table td {
+	border-bottom: 1px solid #f2eeee;
+}
+.social_share_count_form_dv .form-table th {
+	border-bottom: 1px solid #f2eeee;
+}
+.social_share_count_form_dv .connectedSortable.ui-sortable {
+	border: 1px solid #ddd;
+}
+.social_share_count_form_dv .form-table select {
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	background: url('../images/br_down.png');
+	background-repeat: no-repeat;
+	background-position: center right 5px;
+	padding-right: 30px;
+	padding: 10px;
+	padding-right: 30px;
+	height: inherit;
+}
+.social_share_count_form_dv .form-table input, select, textarea {
+	width: 100%;
+	border: 1px solid #ddd;
+	box-shadow: none;
+	padding: 10px;
+	height: inherit;
+	line-height: normal;
+}
+.social_share_count_form_dv .form-table input[type="submit"]{
+	width:inherit;
+}
+.social_share_count_form_dv .form-table input[type="checkbox"]{
+	width:inherit;
+		height:16px;
+}
+.social_share_count_form_dv .form-table input[type="radio"]{
+	width:inherit;
+	height:16px;
+}
+@media only screen and (max-width:782px){
+	.social_share_count_form_dv .form-table td {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.social_share_count_form_dv .form-table th {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.social_share_count_form_dv .form-table select {
+	height: inherit !important;
+}
+}
+@media only screen and (max-width:767px){
+.admin_social_wrap .nav-tab {
+	padding: 10px 2px;
+	font-size: 11px;
+}
+.admin_social_wrap {
+	padding: 5px;
+}
+}
+@media only screen and (max-width:374px){
+.admin_social_wrap .nav-tab {
+	font-size: 10px;
+}
+}
+.wssrs {
+ 	width: 100%;
+    background: #f5f5f5;
+    border: 1px solid #cdcdcd;
+    border-left: 4px solid #0073aa;
+	display:none;
+	overflow:auto;
+}
+.wssrs .l_wssrs { width:200px; float:left;}
+.wssrs .l_wssrs img {float: left; padding: 10px;}
+.wssrs .r_wssrs {float:left; padding:15px 10px;}
+.close_ss_help {
+	text-decoration:none;
+    border-radius: 4px;
+	padding: 5px 15px;
+	color: #fff;
+	font-size: 16px;
+	margin:10px;
+	}
+.close_ss_help:hover{ color:#fff !important;}
+.close_ss_help.fm_close_btn {
+   	float: right;
+    cursor: pointer;
+    text-decoration: none;
+    background: #e00e0e;
+    border-radius: 100%;
+    padding: 0px 6px;
+    display: block;
+    color: #fff;
+    font-size: 10px;
+	margin: 0px;
+}
+.close_ss_help.fm_close_btn_1 {
+    background: #fbc21c;
+    border-bottom: 3px solid #b18400;
+	margin-right:0px;
+	margin-left:0px;
+}
+.close_ss_help.fm_close_btn_2 {
+	 background: #239200;
+	border-bottom: 3px solid #155600;
+	margin-right:0px;
+}
+.close_ss_help.fm_close_btn_3 {
+	 background: #ff1105;
+	  border-bottom: 3px solid #b30900;
+}
+.clear{ clear:both;}
